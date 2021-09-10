@@ -1,0 +1,91 @@
+WEBVTT
+Kind: captions
+Language: en-US
+
+00:00:03.449 --> 00:00:11.400
+Adelaide Rhodes: Hello everyone, and thank you for attending my lightning talk about finding data for your research organism on NCBI in 2021.
+
+00:00:11.820 --> 00:00:27.030
+Adelaide Rhodes: I'm going to go over two case studies that are presented in my poster with the same name. Peter Cooper and I work for the outreach arm of the National Center for Biotechnology Information which is part of the US National Library of Medicine at NIH.
+
+00:00:28.950 --> 00:00:41.760
+Adelaide Rhodes: Both of our demos deal with data sets on a new web interface format that allows you to organize your information, based on genomes, genes and orthologs.
+
+00:00:42.390 --> 00:00:49.320
+Adelaide Rhodes: You may have seen some of the tweets put up by NCBIthat shows all the different annotations for genomes but the entire.
+
+00:00:49.830 --> 00:01:07.950
+Adelaide Rhodes: domains of life, including bacterial and viral genome, are also found in this format now. The first case study deals with looking for myoglobin genes in whales and using them to design a primer set perhaps for a whale species that doesn't have an annotated myoglobin gene.
+
+00:01:09.180 --> 00:01:16.380
+Adelaide Rhodes: This is based on a YouTube video given in May and here's the link for that the second case study deals with finding RNASeq data
+
+00:01:16.980 --> 00:01:25.050
+Adelaide Rhodes: RNASeq data for  Black cottonwood, which is a non model organism that's also in our databases.
+
+00:01:25.470 --> 00:01:29.640
+Adelaide Rhodes: In order to do this more complex example we developed a command line interface DEMO.
+
+00:01:30.030 --> 00:01:43.740
+Adelaide Rhodes: On a Jupyter notebook so you can actually run this notebook by going to the binder link below, but we also have a YouTube video to walk you through the more complex parts of using the SRA Run Selector to find the first set of data.
+
+00:01:45.660 --> 00:01:56.640
+Adelaide Rhodes: Case study one: myoglobin is a protein that allows marine mammals to store oxygen in their muscles for deep dives so perhaps you're looking at a new species of whales that doesn't have an
+
+00:01:57.000 --> 00:02:03.990
+Adelaide Rhodes: annotated myoglobin gene, and you need to design a primer for it, so you might go to.
+
+00:02:04.710 --> 00:02:12.720
+Adelaide Rhodes: into NCBI to find a list of gene identifiers, but where data sets helps you is by allowing you to get a table where you can select.
+
+00:02:12.960 --> 00:02:30.150
+Adelaide Rhodes: Which transcripts or proteins, you may want to download into a table for direct analysis on your local machine or you can take the information that's provided and turn it into a primer blast directly on the website and find all the primers that.
+
+00:02:31.470 --> 00:02:38.130
+Adelaide Rhodes: are shared among the different species that have annotated myoglobin genes giving you a better chance of finding one in your whale.
+
+00:02:39.510 --> 00:02:47.370
+Adelaide Rhodes: The second DEMO, which is also a YouTube video shows researchers who may be interested in funding RNASeq data.
+
+00:02:48.390 --> 00:02:55.560
+Adelaide Rhodes: to validate an expression of a gene, so I picked a random gene, an NAC domain containing transcription regulator.
+
+00:02:56.340 --> 00:02:59.160
+Adelaide Rhodes: In black cottonwood just to show how you might.
+
+00:02:59.520 --> 00:03:10.830
+Adelaide Rhodes: go about finding data that already matches your research question and doing something like a pre analysis to validate that expression levels might actually change when you're testing them in the field.
+
+00:03:11.280 --> 00:03:17.610
+Adelaide Rhodes: So we had several different command line tools integrated into this DEMO here's a list here and.
+
+00:03:19.140 --> 00:03:26.310
+Adelaide Rhodes: Like I said the notebooks already constructed, so you can run them without too much heavy lifting as far as installing these programs.
+
+00:03:28.230 --> 00:03:35.700
+Adelaide Rhodes: So basically what is shown in this DEMO is how to use run selector to filter down to a data set of interest.
+
+00:03:36.510 --> 00:03:54.030
+Adelaide Rhodes: Get the reference gene from the NCBI data sets site for genomes -  get the most recent reference this one here that is annotated to the chromosome level and then year 2018 so that's a really recent genome so using the data sets genome selector you can you can find.
+
+00:03:55.170 --> 00:03:57.600
+Adelaide Rhodes: The best reference genome for your research question.
+
+00:03:58.200 --> 00:04:06.600
+Adelaide Rhodes: And then I run an analysis and this little blue box here in the Jupiter notebook and show you all the different command line options that you can use.
+
+00:04:06.870 --> 00:04:22.140
+Adelaide Rhodes: To construct an alignment then on the left, here we have another NCBI tool, the genome data viewer that allows you to take the results of that alignment and view them directly inside NCBI aligned to the version of the genome that you chose from data sets.
+
+00:04:24.420 --> 00:04:29.040
+Adelaide Rhodes: So don't have a lot of time to give you more details, but I do want to just emphasize that this new.
+
+00:04:29.220 --> 00:04:38.280
+Adelaide Rhodes: data sets interface has a lot of flexibility. They provide command line tools, they also provide programmatic examples in the form of Jupyter notebooks and Rstudio.
+
+00:04:38.550 --> 00:04:49.020
+Adelaide Rhodes: notebooks so please check it out, and I really do want to thank the entire team at NCBI who helped me organize and present the demonstrations and the YouTube videos.
+
+00:04:49.530 --> 00:04:57.180
+Adelaide Rhodes: but also this poster that I'm bringing to biodiversity genomics and it's really nice to see everyone okay take care and have a great meeting.
+
